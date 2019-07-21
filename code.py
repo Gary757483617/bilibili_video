@@ -162,7 +162,7 @@ def save_to_dataframe(av_nums):
 class topic_analyser():
     def __init__(self,topic):
         """
-        :param topic: string in ["physics","math","all"]
+        :param topic: string.
         """
         if topic=="physics":   # you can add more topics to analyse other given subjects
             self.video_data=pd.read_csv("bilibili/physics+fudan.csv")
